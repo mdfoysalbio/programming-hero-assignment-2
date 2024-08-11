@@ -66,7 +66,6 @@ font-weight: 600;
 
 /* menu part end here  */
 
-
 /* banner start here  */
 
 .banner{
@@ -132,6 +131,12 @@ cursor: pointer;
 }
 
 
+.container2{
+    width: 35%;
+    height: 100%;
+    position: relative;
+}
+
 
 .container2 img{
     position: relative;
@@ -149,6 +154,7 @@ backdrop-filter: blur(15px);
 background: rgba(255, 255, 255, 0.10);
 margin-top: -170px;
 margin-left: -155px;
+position:absolute;
 width: 170px;
 height: 70px;
 }
@@ -185,8 +191,9 @@ font-weight: 400;
 border-radius: 12px;
 backdrop-filter: blur(15px);
 background: rgba(255, 255, 255, 0.10);
-margin-top: -405px;
+margin-top: -475px;
 margin-left: 190px;
+position: absolute;
 width: 170px;
 height: 70px;
 
@@ -214,62 +221,129 @@ letter-spacing: 1px;
 /* banner section end here  */
 
 
-
 /* section 1 start here  */
 
 .section1{
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-bottom: 120px;
+}
+.section1 >h1{
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: Inter;
+font-size: 3rem;
+font-weight: 900;
+
+}
+
+.section1 >p{
+    color: var(--third-color);
+    text-align: center;
+    font-family: Inter;
+font-size: 0.87rem;
+font-weight: 400;
+position: relative;
+top: -5px;
+}
+
+.section1-div1{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 40px;
+    
+    
+}
+
+.section1-same-div img{
+    border-radius: 50%;
+   
+   
+}
+
+
+.section1-same-div >h3{
+    color: var(--secondary-color);
+    font-family: Inter;
+font-size: 1.125rem;
+font-weight: 600;
+text-align: center;
+}
+.section1-same-div >p{
+    color: var(--third-color);
+    font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.5;
+text-align: center;
+}
+
+
+/* section 1 end here  */
+
+
+/* section 2 start here  */
+
+
+.section2{
     margin: var(--margin);
- }
- .section1 >h1{
-     color: var(--secondary-color);
-     text-align: center;
-     font-family: Inter;
- font-size: 3rem;
- font-weight: 900;
- 
- }
- 
- .section1 >p{
-     color: var(--third-color);
-     text-align: center;
-     font-family: Inter;
- font-size: 0.87rem;
- font-weight: 400;
- position: relative;
- top: -5px;
- }
- 
- .section1-div1{
-     display: flex;
-     justify-content: space-around;
-     position: relative;
-     top: 40px;
-     
-     
- }
- 
- .section1-same-div img{
-     border-radius: 50%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 18px;
+background: rgb(34, 34, 34);
+}
+
+.section2-div1 {
     
-    
- }
- 
- 
- .section1-same-div >h3{
-     color: var(--secondary-color);
-     font-family: Inter;
- font-size: 1.125rem;
- font-weight: 600;
- text-align: center;
- }
- .section1-same-div >p{
-     color: var(--third-color);
-     font-family: Inter;
- font-size: 14px;
- font-weight: 400;
- line-height: 1.5;
- text-align: center;
- }
- 
- 
- /* section 1 end here  */
+    padding-left: 54px;
+    padding-bottom: 48px;
+}
+.section2-div1 h1{
+    color: var(--secondary-color);
+    font-family: Inter;
+font-size: 3rem;
+font-weight: 900;
+}
+
+.section2-div1 p{
+    color: var(--third-color);
+font-family: Inter;
+font-size: 0.875rem;
+font-weight: 400;
+position: relative;
+top: -10px;
+}
+
+.section2-div1 button{
+    background-color: var(--primary-color);
+    border-radius: 42px;
+    font-family: Inter;
+font-size: 1.125rem;
+font-weight: 600;
+color: var(--secondary-color);
+width: 224px;
+height: 54px;
+cursor: pointer;
+border: none;
+}
+
+
+.section2-div2{
+    width: 40%;
+height: 340px;
+
+}
+.section2-div2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    top: 25px;
+    position: relative;
+    right: 25px;
+    object-fit: none;
+    object-position: 70% 31%;
+    zoom: 80%;
+}
+
+/* section 2 end here  */
