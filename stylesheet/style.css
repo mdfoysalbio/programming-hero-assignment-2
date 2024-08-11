@@ -445,3 +445,246 @@ padding-right: 30px;
 }
 
 /* section 3 end here  */
+
+
+
+
+/* section 4 start here  */
+
+
+.section4 >h1{
+    text-align: left;
+     font-family: Inter;
+ font-size: 3rem;
+ font-weight: 900;
+ color: var(--secondary-color);
+ position: relative;
+ left: -140px;
+ }
+ .section4 >p{
+     
+     font-family: Inter;
+ font-size: 0.875rem;
+ font-weight: 400;
+ color: var(--third-color);
+ position: relative;
+ top: -30px;
+ }
+ .section4{
+    margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+     position: relative;
+     top: -50px;
+    
+ }
+ 
+ .section4-div1{
+     background: rgb(34, 34, 34);
+     width: 100%;
+ height: 100%;
+ margin-top: -20px;
+ display: flex;
+ justify-content: space-between;
+ 
+ 
+ }
+ 
+ 
+ .section4-div2 >h1{
+     color: var(--secondary-color);
+     font-family: Inter;
+ font-size: 1.75rem;
+ font-weight: 900;
+ }
+ .section4-div2 th{
+     color: var(--secondary-color);
+     font-family: Inter;
+ font-size: 1rem;
+ font-weight: 500;
+ }
+ .section4-div2 td{
+     color: var(--third-color);
+     font-family: Inter;
+ font-size: 0.875rem;
+ font-weight: 400;
+ }
+ 
+ .section4-div2{
+     padding-left: 10%;
+     width: 310px;
+     height: 216px;
+ 
+ }
+ .table td{
+     padding: 13px 70px 13px 18px;
+     border: 1px solid gray;
+     white-space: nowrap;
+     font-family: Inter;
+ font-size: 0.875rem;
+ font-weight: 400;
+ color: var(--third-color);
+     
+    
+ }
+ .table th{
+     padding: 13px 70px 13px 18px;
+     border: 1px solid gray;
+     white-space: nowrap;
+     font-family: Inter;
+ font-size: 1rem;
+ font-weight: 500;
+ color: var(--secondary-color);
+     text-align: left;
+ }
+ .table{
+     border-collapse:collapse;
+     margin-top: 40px;
+ }
+ .section4-div2{
+     padding-top: 50px;
+ }
+ 
+ .section4-div3{
+     padding-right: 10%;
+     height: 100%;
+ }
+ 
+ 
+ .section4-div3 h1{
+     font-family: Inter;
+ font-size: 1.75rem;
+ font-weight: 900;
+ color: var(--secondary-color);
+ }
+ 
+ .section4-div3 p{
+     font-family: Inter;
+ font-size: 0.875rem;
+ font-weight: 400;
+ letter-spacing: 0.3px;
+ color: var(--third-color);
+ }
+ 
+ .section4-div3{
+     padding-top: 50px;
+     margin-bottom: 95px;
+     
+ }
+ 
+ .section4-div3 [type="text"]{
+     border-radius: 8px;
+ background: rgba(255, 255, 255, 0.1);
+ width: 282.5px;
+ height: 48px;
+ border: none;
+ 
+ color: var(--secondary-color);
+ 
+ }
+ 
+ ::placeholder{
+     color: var(--third-color);
+     font-family: Inter;
+ font-size: 1rem;
+ font-weight: 400;
+ padding-left: 20px;
+ 
+ 
+ }
+ 
+ 
+ #select1{
+     border-radius: 8px;
+ background: rgba(255, 255, 255, 0.1);
+ width: 284px;
+ height: 48px;
+ font-size: 1rem;
+ border: none;
+ padding-left: 20px;
+ color: var(--third-color);
+ 
+ }
+ 
+ 
+ .form-div1{
+     display: flex;
+     gap: 20px;
+ }
+ .form-div2{
+     display: flex;
+     gap: 20px;
+ }
+ #select2{
+     width: calc(282.5px * 2 + 26px);
+ height: 48px;
+ border-radius: 8px;
+ background: rgba(255, 255, 255, 0.1);
+ font-size: 1rem;
+ color: var(--third-color);
+ padding-left: 20px;
+ 
+ border: none;
+ }
+ 
+ .option{
+   background-color: white;
+     font-size: 1rem;
+     color: black;
+     
+ }
+ 
+ 
+ .form-div1 [type="text"]{
+     font-size: 1rem;
+     color: var(--secondary-color);
+     
+ }
+ 
+ .form-div2 [type="text"]{
+     font-size: 1rem;
+     color: var(--secondary-color);
+     
+ }
+ 
+ .continue{
+     background-color: var(--primary-color);
+     border-radius: 42px;
+     font-family: Inter;
+ font-size: 1.125rem;
+ font-weight: 600;
+ color: var(--secondary-color);
+ width: 224px;
+ height: 54px;
+ cursor: pointer;
+ position: relative;
+ top: 35px;
+ border: none;
+ }
+ 
+ /* section 4 end here  */
+ 
+ 
+ .backgroundimg{
+     width: 60%;
+     height: 300px;
+     background-color: aqua;
+     position: relative;
+ }
+ 
+ .backgroundimg img{
+     opacity: 0.6;
+     width: 100%;
+     height: 100%;
+ }
+ .overlay-text{
+     position: absolute;
+     color: white;
+     font-size: 2rem;
+    top: 10px;
+    left: 50px;
+ }
+ 
+ 
+ /* section 4 end here  */
