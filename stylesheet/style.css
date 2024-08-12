@@ -453,7 +453,7 @@ padding-right: 30px;
 
 
 .section4 >h1{
-    text-align: left;
+    margin: 0 auto;
      font-family: Inter;
  font-size: 3rem;
  font-weight: 900;
@@ -468,15 +468,16 @@ padding-right: 30px;
  font-weight: 400;
  color: var(--third-color);
  position: relative;
- top: -30px;
+ top: 20px;
+ margin: 0 auto;
  }
  .section4{
     margin: 0 auto;
      display: flex;
      flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
      position: relative;
-     top: -50px;
+     /* top: -50px; */
     
  }
  
@@ -484,7 +485,7 @@ padding-right: 30px;
      background: rgb(34, 34, 34);
      width: 100%;
  height: 100%;
- margin-top: -20px;
+ margin-top: 80px;
  display: flex;
  justify-content: space-between;
  
@@ -763,3 +764,97 @@ padding-right: 30px;
 }
 
 /* section 5 end here  */
+
+
+
+
+/* footer section start here  */
+    
+footer{
+    background-color: rgba(255, 255, 255, 0.1);
+    
+}
+
+.footer-main-div{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    gap: 300px;
+    margin-bottom: 80px;
+    
+}
+
+
+.footer-sub-div{
+    display: flex;
+    gap: 150px;
+    color: white;
+    position: relative;
+    top: 25px;
+    flex-wrap: wrap;
+    
+   
+    
+    
+}
+
+.footer-same-div{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+
+.footer-main-div1 >h1{
+    color: var(--primary-color);
+    font-family: Inter;
+    font-size: 4.375rem;
+    font-weight: 800;
+}
+.footer-main-div1 >p{
+    color: var(--third-color);
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    position: relative;
+    margin-top: -14px;
+}
+
+.footer-same-div p{
+    line-height: 0.5rem;
+    color: var(--third-color);
+    font-family: Inter;
+    font-size: 1.44rem;
+    font-weight: 400;
+}
+
+.footer-same-div h3{
+    color: var(--secondary-color);
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+hr{
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.copyright{
+    color: var(--third-color);
+    font-family: Inter;
+    font-size:1.25rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 35px;
+    
+}
+
+
+/* footer end here  */
+
