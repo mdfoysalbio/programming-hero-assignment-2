@@ -717,7 +717,9 @@ padding-right: 30px;
 }
 
 .trainer div{
-    width: 326.67px;
+    /* width: 326.67px; */
+    width: 31.48%;
+    /* width: calc(31% + 5px); */
     height: 272px;
     
 }
@@ -731,8 +733,8 @@ padding-right: 30px;
 .trainer{
     display: flex;
     flex-wrap: wrap;
-    padding: 55px;
-    gap: 55px;
+    padding: 30px;
+    gap: 30px;
     border-radius: 18px;
     background-color: rgba(255, 255, 255, 0.1);
     margin-top: 70px;
