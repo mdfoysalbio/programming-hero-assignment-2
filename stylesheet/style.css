@@ -226,7 +226,7 @@ letter-spacing: 1px;
 .section1{
    margin-left: 10%;
    margin-right: 10%;
-   margin-bottom: 120px;
+   margin-bottom: 140px;
 }
 .section1 >h1{
     color: var(--secondary-color);
@@ -857,4 +857,669 @@ hr{
 
 
 /* footer end here  */
+
+
+
+
+/* responsive for mobile  */
+
+@media screen and (max-width: 576px) {
+  
+  
+    .break{
+    display: none;
+   }
+
+   .logo{
+    font-size: 2rem;
+
+   }
+   
+    nav{
+        display: none;
+    }
+    .menu-bar{
+        visibility: visible;
+        
+    }
+
+    .container-div-1{
+        gap: 40px;
+    }
+    
+    
+    .header{
+        
+        padding: 35px 8%;
+        
+    }
+
+    /* menu part end here  */
+
+    /* banner start here  */
+    
+    .banner{
+        padding: 0px 8%;
+        flex-wrap: wrap;
+    }
+
+    .banner .container h1{
+        font-size: 1.8rem;
+    }
+    .shape{
+        font-size: 3.3rem;
+    }
+
+    .banner .container p{
+        font-size: 0.875rem;
+    }
+    .container-div-1{
+        gap: 10px;
+    }
+
+    .container-div-1 .button1{ 
+        font-size: 0.875rem;
+        
+        width: calc(42% + 20px);
+        height: 47px;
+  
+    }
+    
+    .container-div-1 .button2{
+        font-size: 0.875rem;
+        width: calc(42% + 20px);
+        
+        height: 47px;
+    }
+
+    .container2{
+        /* width: calc(100% + 25px); */
+       width: 100%;
+        margin: 0 auto;
+        
+        
+    }
+
+    .container2 img{
+        
+        margin-top: 60px;
+        left: 3px;
+        width: 100%;
+        
+    }
+
+    .container2-div1{
+        width: 90px;
+        height: 30px;
+        margin-top: -260px;
+        margin-left: 0;
+        padding: 20px 10px;
+    }
+
+    .circle{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+    .container2-div1 h3{
+        font-size: 1rem;
+        font-weight: 800;
+        
+    }
+
+    .container2-div1 p{
+        font-size: 0.61rem;
+        font-weight: 350;
+    }
+
+    .container2-div2{
+        width:90px;
+        height: 40px;
+        margin-top: -410px;
+        padding: 15px 10px;
+        margin-left: 150px;
+          
+    }
+
+    .container2-div2 h3{
+        font-size: 1.1rem;
+        font-weight: 800;
+    }
+
+    .container2-div2 p{
+        font-size: 0.43rem;
+        font-weight: 400;
+        margin-top: -10px;
+       
+    }
+
+    /* bannner section end here  */
+
+    /* section 1 start here  */
+
+    .section1{
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        top: -110px;
+        position: relative;
+        background-color: black;
+        
+    }
+    
+   
+    .section1-div1{
+        gap: 30px;
+    }
+
+    .section1 >h1{
+        font-size: 1.5rem;
+    }
+
+    .section1 >p{
+        font-size: 0.87rem;
+    }
+
+    .section1-div1{
+        flex-wrap: wrap;
+    }
+
+
+    
+/* section 1 end here  */
+
+
+/* section 2 start here  */
+    
+    .section2{
+        margin-left: 8%;
+        margin-right: 8%;
+        flex-wrap: wrap;
+        height: 530px;
+        width: 84%;
+        margin-top: 0px;
+      
+
+     }
+
+     .section2-div1 {
+    
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+
+     .section2-div1 h1{
+        font-size: 2rem;
+        padding-left: 10px;
+        padding-right: 10px;
+        position: relative;
+        top: -15px;
+     }
+
+     .section2-div1 p{
+        font-size: 0.75rem;
+        line-height: 1.3rem;
+        padding-left: 10px;
+        padding-right: 10px;
+        top: -30px;
+     }
+
+     .section2-div1 button{
+        width: calc(84% + 20px);
+        height: 50px;
+        margin-left: 10px;
+        font-size: 1rem;
+        margin-top: -10px;
+     }
+
+     .section2-div2{
+        width: calc(84% + 20px);
+        height: 170px;
+     }
+
+.section2-div2 img{
+    /* left: 30px; */
+    top: -10px; 
+    zoom: 30%;
+    padding-left: 8%;
+    padding-right: 8%;
+    border-radius: 13%;
+    
+}
+
+
+/* section 2 end here  */
+
+/* section 3 start here  */
+
+.section3{
+    position: relative;
+    margin-left: 8%;
+    margin-right: 8%;
+    top: -50px;
+    width: 84%;
+    
+}
+.section3-div1{
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.section3 >h1{
+    font-size: 1.5rem;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section3 >p{
+    font-size: 0.875rem;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.3rem;
+}
+
+.section3-sub-div h2{
+    font-size: 1.1rem;
+}
+
+.section3-sub-div{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    
+}
+
+
+.section3-sub-div p{
+    line-height: 1.2rem;
+}
+
+.section3-div1{
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+.section3-sub-div button{
+    width: 100%;
+    height: 40px;
+}
+
+.section3-sub-div{
+    padding-left: 10px;
+    padding-bottom: 25px;
+    padding-right: 10px;
+}
+
+.same-div{
+    width: 8px;
+    height: 8px;
+}
+
+.circle-div{
+    gap: 6px;
+    top: -10px;
+
+}
+
+/* section 3 end here  */
+
+/* section 4 start here  */
+
+
+.section4{
+    position: relative;
+    top: -120px;
+    width: 100%;
+   
+}
+.section4 >h1{
+    font-size: 1.8rem;
+    font-weight: 800;
+    left: 0px;
+    position: relative;
+    margin: 0 8%;
+    
+    
+
+}
+
+.section4 >p{
+    margin-left: 8%;
+    margin-right: 8%;
+    font-size: 0.875rem;
+    line-height: 1.2rem;
+}
+
+.section4-div1{
+    flex-wrap: wrap;
+    position: relative;
+    top: -150px;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.section4-div2{
+    position: relative;
+    top: -40px;
+    padding-left: 8%;
+    padding-right: 8%;
+    
+}
+
+.section4-div2 >h1{
+    font-size: 1.5rem;
+}
+
+
+
+
+.section4-div2 th{
+    font-size: 0.875rem;
+}
+
+.section4-div2 td{
+    font-size: 0.75rem;
+
+}
+
+
+
+.table td{
+    padding: 13px 15px 13px 15px;
+    
+
+}
+
+.table th{
+    padding: 13px 15px 13px 15px;
+    
+
+}
+
+.table{
+    margin-top: 35px;
+}
+
+.section4-div3{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.section4-div3 h1{
+    font-size: 1.5rem;
+}
+.section4-div3 p{
+    line-height: 1.3rem;
+    margin-bottom: 40px;
+}
+
+::placeholder{
+    padding-left: 0px;
+}
+
+.section4-div3 [type="text"]{
+    /* width: 156px; */
+    width: 100%;
+   padding-left: 8%;
+    padding-right: 8%;
+}
+
+
+#select1{
+    /* width: 161px; */
+    width: 100%;
+}
+
+#select2{
+    width: 100%;
+}
+
+.form-div1{
+    gap: 10px;
+}
+
+.form-div2{
+    gap: 10px;
+    
+}
+
+.form-div2 [type="text"]{
+    width: 73%;
+}
+
+
+/* section 4 end here  */
+
+
+/* section 5 start here  */
+
+.section5{
+    margin-top: -110px;
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 84%;
+
+}
+
+.section5-div1 >h1{
+    font-size: 2rem;
+    
+}
+
+.section5-div1 >p{
+    line-height: 1.3rem;
+   
+}
+
+.trainer{
+    position: relative;
+    top: -30px;
+    padding: 8%;
+    gap: 27px;
+}
+
+.trainer div{
+   
+    width: 100%;
+    height: 210px;
+    
+}
+
+/* section 5 end here  */
+
+/* footer start here  */
+
+footer{
+    margin-top: -70px;
+    width: 100%;
+}
+.footer-main-div{
+    margin-left: 8%;
+    margin-right: 8%;
+    flex-wrap: wrap;
+    gap: 0px;
+}
+
+.footer-sub-div{
+    flex-direction: column;
+    gap: 5px;
+    top: -5px;
+}
+
+.footer-main-div1 >h1{
+    font-size: 2.5rem;
+}
+.footer-main-div1 p{
+    font-size: 0.875rem;
+
+}
+
+.footer-same-div h3{
+    font-size: 1.5rem;
+}
+
+.footer-same-div p{
+    font-size: 1.1rem;
+}
+
+hr{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: -30px;
+}
+
+.copyright{
+    text-align: left;
+    padding-left: 8%;
+    font-size:1rem;
+
+}
+
+
+
+/* footer end here  */
+
+
+
+
+
+
+}
+
+
+/* this section is for mobile min width: 321px and max width: 576px */
+
+
+@media screen and (min-width: 321px) and (max-width: 576px) {
+
+/* banner section start here  */
+
+    .banner .container h1{
+        font-size: 2.5rem;
+    }
+    .shape{
+        font-size: 5rem;
+    }
+    .container2{
+        width: 100%;
+    }
+
+
+    .container2-div1{
+        margin-top: -295px;
+        width: 110px;
+       
+    }
+
+    .container2-div2{
+        margin-top: -465px;
+        margin-left: 175px;
+        width:110px;
+        
+    }
+
+    .container2-div2 h3{
+        font-size: 1.3rem;
+         margin-top: -20px; margin-top: 0px;
+        
+    }
+
+    .container2-div2 p{
+        font-size: 0.53rem;
+        margin-top: -15px;
+    }
+
+    /* banner section end here  */
+
+
+    /* section 1 start here  */
+
+
+    .section1{
+        top: -90px;
+    }
+
+    .section1 >h1{
+        font-size: 1.7rem;
+    }
+
+
+    /* section 1 end here  */
+}
+
+
+
+
+/* this section is for mobile min width: 376px and max width: 576px */
+
+@media screen and (min-width: 376px) and (max-width: 576px) {
+    
+    /* banner section start here  */
+
+    .banner .container h1{
+        font-size: 2.7rem;
+    }
+    .shape{
+        font-size: 5rem;
+    }
+    .container2{
+        width: 100%;
+    }
+
+    .container2{
+        width: 100%;
+    }
+
+
+    .container2-div1{
+        margin-top: -325px;
+        width: 100px;
+        width: 110px;
+       
+    }
+
+    .container2-div2{
+        margin-top: -515px;
+        margin-left: 200px;
+        width:120px;
+        
+    }
+
+    .container2-div2 h3{
+        font-size: 1.4rem;
+        margin-top: 0px;
+    }
+
+    .container2-div2 p{
+        font-size: 0.63rem;
+        margin-top: -20px;
+    }
+
+    /* banner section end here  */
+
+
+    
+    /* section 1 start here  */
+
+
+    .section1{
+        top: -105px;
+    }
+
+    .section1 >h1{
+        font-size: 2rem;
+    }
+
+
+    /* section 1 end here  */
+
+
+}
+
 
