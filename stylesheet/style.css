@@ -1454,6 +1454,8 @@ hr{
 
 
     /* section 1 end here  */
+
+     
 }
 
 
@@ -1521,6 +1523,39 @@ hr{
 
 
     /* section 1 end here  */
+
+    /* section start here  */
+
+    .section2-div1 h1{
+        font-size: 2.4rem;
+    }
+
+    /* section 2 end here  */
+
+
+    /* section 3 start here  */
+
+    .section3 >h1{
+        font-size: 2rem;
+    }
+
+    .section3-sub-div h2{
+        font-size: 1.3rem;
+    }
+
+    /* section 3 end here  */
+
+
+    /* section 4 start here  */
+
+    .section4 >h1{
+        font-size: 2rem;
+    }
+
+    /* section 4 end here  */
+
+    /* section 5 start here  */
+
 
 
 }
