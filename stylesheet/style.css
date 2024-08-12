@@ -688,3 +688,78 @@ padding-right: 30px;
  
  
  /* section 4 end here  */
+
+
+ /* section 5 start here  */
+
+
+.section5{
+    margin: var(--margin);
+}
+.section5-div1 >h1{
+    color: var(--secondary-color);
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    
+}
+
+.section5-div1 >p{
+    color: var(--third-color);
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    top: -5px;
+}
+
+.trainer div{
+    width: 326.67px;
+    height: 272px;
+    
+}
+.trainer img{
+    height: 100%;
+    width: 100%;
+    border-radius: 18px;
+    filter: brightness(82%);
+    
+}
+.trainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 55px;
+    gap: 55px;
+    border-radius: 18px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 70px;
+    position: relative;
+    
+}
+
+.position-text{
+    position: absolute;
+    margin-top: -87px;
+    line-height: 0.5rem;
+    
+}
+
+.position-text p{
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    margin-left: 27px;
+    
+}
+
+.position-text h3{
+    color: var(--secondary-color);
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 1.2rem;
+    margin-left: 27px;
+    
+}
+
+/* section 5 end here  */
